@@ -1,0 +1,30 @@
+Quiroga María Emilia: BETA
+Spatola Mateo: ALFA
+Monson Ezequiel: GAMMA
+
+Responde BETA:
+a-¿Como queda El master después de estos cambios?
+El master quedo:
+- beta
+- CPUALFA.txt
+- CPUBeta.txt
+- CPUGamma.txt
+- datos.txt
+- README
+- respuesta_I3_Equipo116.txt
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Sí, pude ver todos los cambios realizados.
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+Como cree el repo local cuando cree el repo de github, lo que hice fue:
+$ git pull
+$ git checkout monson --> (apellido de gamma)
+$ ipconfig >> beta.txt
+$ git push origin monson
+$ git merge monson main 
+$ git add .
+$ git commit -m "comentario"
+$ git push
+
+
