@@ -27,4 +27,18 @@ $ git add .
 $ git commit -m "comentario"
 $ git push
 
+Responde GAMMA:
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados? 
+Sí, las ramas creadas por BETA y GAMMA quedan actualizadas con la información que cada uno agregó.
+
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+El comando merge lo realizamos sin inconvenientes.
+ 
+f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+$git checkout quiroga
+(modifico el archivo con editor de texto)
+$git add beta.txt
+$git commit -m "Agregar información a beta.txt"
+$git push origin quiroga
+
 
