@@ -41,4 +41,12 @@ $git add beta.txt
 $git commit -m "Agregar información a beta.txt"
 $git push origin quiroga
 
+Responde ALFA:
+g-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+$git checkout quiroga
+(modifico el archivo con editor de texto)
+$git add .
+$git commit -m "Modifique beta.txt"
+$git push origin quiroga
+
 
